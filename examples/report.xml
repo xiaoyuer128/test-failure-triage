@@ -1,0 +1,2 @@
+<testsuites><testsuite name="demo"><testcase classname="test_demo" name="test_sum"><failure type="AssertionError" message="expected 3">test_demo.py:2: AssertionError
+assert 1 + 1 == 3</failure></testcase><testcase name="test_ok"/><testcase name="test_later"><skipped message="not implemented"/></testcase></testsuite></testsuites>
