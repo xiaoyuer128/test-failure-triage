@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "python": "3.11.11 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:34:19) [MSC v.1929 64 bit (AMD64)]",
+  "runs": [
+    {
+      "round": 1,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_bad_xml (test_triage.Tests.test_bad_xml) ... ok\ntest_captured_output_is_local (test_triage.Tests.test_captured_output_is_local) ... ok\ntest_cli_preserves_inputs (test_triage.Tests.test_cli_preserves_inputs) ... ok\ntest_empty (test_triage.Tests.test_empty) ... ok\ntest_instruction_text_not_executed (test_triage.Tests.test_instruction_text_not_executed) ... ok\ntest_location_formats (test_triage.Tests.test_location_formats) ... ok\ntest_log_not_attributed (test_triage.Tests.test_log_not_attributed) ... ok\ntest_multiple_failures (test_triage.Tests.test_multiple_failures) ... ok\ntest_namespace (test_triage.Tests.test_namespace) ... ok\ntest_path_bounds (test_triage.Tests.test_path_bounds) ... ok\ntest_real_pytest_report (test_triage.Tests.test_real_pytest_report) ... ok\ntest_signal_is_not_cause (test_triage.Tests.test_signal_is_not_cause) ... ok\ntest_size_limit (test_triage.Tests.test_size_limit) ... ok\ntest_suite_count_mismatch (test_triage.Tests.test_suite_count_mismatch) ... ok\ntest_summary_and_source (test_triage.Tests.test_summary_and_source) ... ok\ntest_verification_is_evidence_linked (test_triage.Tests.test_verification_is_evidence_linked) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 3.485s\n\nOK\n"
+    },
+    {
+      "round": 2,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_bad_xml (test_triage.Tests.test_bad_xml) ... ok\ntest_captured_output_is_local (test_triage.Tests.test_captured_output_is_local) ... ok\ntest_cli_preserves_inputs (test_triage.Tests.test_cli_preserves_inputs) ... ok\ntest_empty (test_triage.Tests.test_empty) ... ok\ntest_instruction_text_not_executed (test_triage.Tests.test_instruction_text_not_executed) ... ok\ntest_location_formats (test_triage.Tests.test_location_formats) ... ok\ntest_log_not_attributed (test_triage.Tests.test_log_not_attributed) ... ok\ntest_multiple_failures (test_triage.Tests.test_multiple_failures) ... ok\ntest_namespace (test_triage.Tests.test_namespace) ... ok\ntest_path_bounds (test_triage.Tests.test_path_bounds) ... ok\ntest_real_pytest_report (test_triage.Tests.test_real_pytest_report) ... ok\ntest_signal_is_not_cause (test_triage.Tests.test_signal_is_not_cause) ... ok\ntest_size_limit (test_triage.Tests.test_size_limit) ... ok\ntest_suite_count_mismatch (test_triage.Tests.test_suite_count_mismatch) ... ok\ntest_summary_and_source (test_triage.Tests.test_summary_and_source) ... ok\ntest_verification_is_evidence_linked (test_triage.Tests.test_verification_is_evidence_linked) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 3.272s\n\nOK\n"
+    },
+    {
+      "round": 3,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_bad_xml (test_triage.Tests.test_bad_xml) ... ok\ntest_captured_output_is_local (test_triage.Tests.test_captured_output_is_local) ... ok\ntest_cli_preserves_inputs (test_triage.Tests.test_cli_preserves_inputs) ... ok\ntest_empty (test_triage.Tests.test_empty) ... ok\ntest_instruction_text_not_executed (test_triage.Tests.test_instruction_text_not_executed) ... ok\ntest_location_formats (test_triage.Tests.test_location_formats) ... ok\ntest_log_not_attributed (test_triage.Tests.test_log_not_attributed) ... ok\ntest_multiple_failures (test_triage.Tests.test_multiple_failures) ... ok\ntest_namespace (test_triage.Tests.test_namespace) ... ok\ntest_path_bounds (test_triage.Tests.test_path_bounds) ... ok\ntest_real_pytest_report (test_triage.Tests.test_real_pytest_report) ... ok\ntest_signal_is_not_cause (test_triage.Tests.test_signal_is_not_cause) ... ok\ntest_size_limit (test_triage.Tests.test_size_limit) ... ok\ntest_suite_count_mismatch (test_triage.Tests.test_suite_count_mismatch) ... ok\ntest_summary_and_source (test_triage.Tests.test_summary_and_source) ... ok\ntest_verification_is_evidence_linked (test_triage.Tests.test_verification_is_evidence_linked) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 4.242s\n\nOK\n"
+    }
+  ],
+  "limitation": "Script tests; no independent Agent root-cause benchmark."
+}
