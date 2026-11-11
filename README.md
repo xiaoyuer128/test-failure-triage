@@ -55,3 +55,7 @@ python evals/run_rounds.py
 ## 参考
 
 [pytest JUnit XML](https://docs.pytest.org/en/stable/how-to/output.html#creating-junitxml-format-files)；同类检索发现 [debugging-and-error-recovery](https://github.com/NatureMetrics/coding-agent-specification/blob/main/skills/debugging-and-error-recovery/SKILL.md) 的分类排查流程。本项目以确定性证据提取为重点；未执行同类项目，不对其效果作比较。
+
+## Release v0.1.0 / 发布版本
+
+MIT licensed. [Installation and complete demo / 安装与完整演示](docs/INSTALLATION.md). Run `python scripts/demo.py`. Platform indexing and Agent auto-activation are not certified by local checks.
