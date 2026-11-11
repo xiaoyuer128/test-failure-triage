@@ -34,3 +34,7 @@ See [source comparison](docs/COMPARISON.md) for repository-level stars, dates an
 Tests execute real pytest failures in temporary projects and analyze their JUnit reports, alongside path/input/XML/privacy-boundary cases. [Repeated logs](evals/results.json) record actual results. CI targets Python 3.10–3.12; local results do not certify remote CI. No independent Agent diagnosis benchmark or accuracy improvement is claimed.
 
 Reference: [pytest JUnit XML documentation](https://docs.pytest.org/en/stable/how-to/output.html#creating-junitxml-format-files). Repository: https://github.com/xiaoyuer128/test-failure-triage .
+
+## Release v0.1.0 / 发布版本
+
+MIT licensed. [Installation and complete demo / 安装与完整演示](docs/INSTALLATION.md). Run `python scripts/demo.py`. Platform indexing and Agent auto-activation are not certified by local checks.
