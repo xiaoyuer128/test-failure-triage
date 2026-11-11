@@ -1,0 +1,12 @@
+import json
+from pathlib import Path
+import subprocess
+import sys
+ROOT=Path(__file__).resolve().parents[1]
+def run(args, expected):
+    result=subprocess.run([sys.executable,*args],cwd=ROOT,capture_output=True,text=True,encoding='utf-8')
+    if result.returncode != expected: raise RuntimeError(result.stdout+result.stderr)
+    return {'command':args,'exit_code':result.returncode,'output':json.loads(result.stdout)}
+results=[run(['scripts/triage.py','--report','examples/report.xml','--source-root','examples/source'],0)]
+assert results[0]['output']['claims']['root_causes_confirmed'] is False
+print(json.dumps({'results':results,'limitation':'Script demonstration, not independent Agent evaluation.'},ensure_ascii=True,indent=2))
